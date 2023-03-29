@@ -132,9 +132,9 @@ export function CarouselSponsor() {
                   animate={bounce ? 'animate' : 'initial'}
                 >
                   <a
-                    href={
-                      'https://docs.google.com/forms/d/e/1FAIpQLSe2xJD2Qh14IMKMe7RrGhjzaVEjLDXLy_X-FoD01yKAJkgwHw/viewform'
-                    }
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSe2xJD2Qh14IMKMe7RrGhjzaVEjLDXLy_X-FoD01yKAJkgwHw/viewform"
+                    target="_blank"
+                    noreferrer="noopener"
                   >
                     <Image src={sponsorUsButton} width={140} height={120} />
                   </a>
@@ -161,7 +161,11 @@ export function CarouselSponsor() {
                 variants={bounceVariants as Variants}
                 animate={bounce ? 'animate' : 'initial'}
               >
-                <a href={'/sponsorship_packet.pdf'}>
+                <a
+                  href={'/sponsorship_packet.pdf'}
+                  target="_blank"
+                  noreferrer="noopener"
+                >
                   <Image src={sponsorUsButton} width={140} height={120} />
                 </a>
               </motion.span>
@@ -197,6 +201,8 @@ export function CarouselSponsor() {
                     href={
                       'https://docs.google.com/forms/d/e/1FAIpQLScxmD410p1xbI4z-WLYU_OkX87cNpA0NkVVkbrZOUjfwUL_wQ/viewform?usp=send_form'
                     }
+                    target="_blank"
+                    noreferrer="noopener"
                   >
                     <Image src={becomeMentorButton} width={140} height={120} />
                   </a>
@@ -227,6 +233,8 @@ export function CarouselSponsor() {
                   href={
                     'https://docs.google.com/forms/d/e/1FAIpQLScxmD410p1xbI4z-WLYU_OkX87cNpA0NkVVkbrZOUjfwUL_wQ/viewform?usp=send_form'
                   }
+                  target="_blank"
+                  noreferrer="noopener"
                 >
                   <Image src={becomeMentorButton} width={140} height={120} />
                 </a>
@@ -263,6 +271,8 @@ export function CarouselSponsor() {
                     href={
                       'https://docs.google.com/forms/d/e/1FAIpQLSe2xJD2Qh14IMKMe7RrGhjzaVEjLDXLy_X-FoD01yKAJkgwHw/viewform'
                     }
+                    target="_blank"
+                    noreferrer="noopener"
                   >
                     <Image
                       src={becomeVolunteerButton}
@@ -297,6 +307,8 @@ export function CarouselSponsor() {
                   href={
                     'https://docs.google.com/forms/d/e/1FAIpQLSe2xJD2Qh14IMKMe7RrGhjzaVEjLDXLy_X-FoD01yKAJkgwHw/viewform'
                   }
+                  target="_blank"
+                  noreferrer="noopener"
                 >
                   <Image src={becomeVolunteerButton} width={140} height={120} />
                 </a>
